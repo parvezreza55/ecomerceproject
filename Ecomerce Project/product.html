@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- First class -->
+    <meta
+      name="description"
+      content="This is an website for anis 
+    express"
+    />
+    <title>Ecomerce Project</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- First class -->
+  </head>
+  <body>
+    <!-- navbar start from here -->
+         <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+      <ul class="nav-upper flex-space-around">
+        <li class="nav__list">
+          <a href="Ecomerce.html" class="nav__link">Home </a>
+        </li>
+        <li class="nav__list">
+          <a href="register.html" class="nav__link">Register </a>
+        </li>
+        <li class="nav__list">
+          <a href="login.html" class="nav__link">Login </a>
+        </li>
+        <li class="nav__list">
+          <a href="Ecomerce.html" class="nav__link">Logout </a>
+        </li>
+        <li class="nav__list">
+          <a href="contact.html" class="nav__link">Contact </a>
+        </li>
+        <li class="nav__list">
+          <a href="profile.html" class="nav__link">
+            <img
+              class="profile-icon"
+              src="images/Anis.webp"
+              alt="profile-icon"
+            />
+          </a>
+        </li>
+      </ul>
+
+      <ul class="nav-lower flex-space-around">
+        <li class="nav__list">
+          <a href="Ecomerce.html" class="nav__brand nav__link">Anis Express </a>
+        </li>
+        <li class="nav__list">
+          <a href="cart.html" class="nav__link">
+            <span><i class="fas fa-cart-shopping"></i></span>
+            Cart 2 product - $124.40
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- navbar ends from here -->
+    <main class="flex-center">
+      <div class="main-content">
+        <section class="product-details flex-center">
+          <div class="product__details-left flex-center">
+            <img src="images/product1.avif" alt="product1">
+          </div>
+          <div class="product__details-right">
+            <h3>Sony V-4 Headphone</h3>
+              <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+              </p>
+              
+              <p class="product__description">
+                <strong>Description :</strong>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel obcaecati eveniet blanditiis maiores rerum quos, deleniti neque. Magni deleniti, voluptas iure mollitia repudiandae facilis unde vel beatae dolores consequuntur quia architecto laborum vitae sed odio error! Illum, porro, amet eaque assumenda eius id dolorum consequatur quisquam quaerat officia impedit dignissimos eveniet earum maxime suscipit velit totam quas. Est ad reprehenderit exercitationem eaque cupiditate corporis quia, error assumenda praesentium quas architecto hic numquam aliquid quisquam, nostrum culpa repudiandae quibusdam dolor itaque magni ea obcaecati? Esse ratione molestias libero minima et rerum nisi sint quam veniam? Harum cumque id quas distinctio quos?
+              <p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique odio sequi sapiente nemo nihil necessitatibus ea, esse reiciendis! Aperiam culpa quaerat dignissimos omnis, harum, eos cum fugiat corporis incidunt, et tempora odit nisi nobis modi?
+                </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nisi velit aperiam alias tempora consequuntur, fuga fugiat voluptate amet fugit.
+                <!-- <span -->
+                  ><h3 class="product__category">Categoty : Headphone</h3>
+                  <h3 class="product__price">$225.5</h3>
+                  <p class="product__rating">Rating:4.5/5</p>
+
+                  <button class="btn product__btn">Add To Cart</button>
+                  <button class="btn product__btn">Back To Shopping</button>
+                <!-- </span> -->
+              </p>
+          </div>
+        </section>
+      </div>
+  </main>
+    <!-- footer start from here -->
+    <footer  class="footer flex-space-around">
+      <div class="flex-space-around">
+        <label for="subscribe">Subscribe to the Newsletter</label>
+        <input
+          type="email"
+          id="subscribe"
+          name="subscribe"
+          placeholder="Your Email"
+          class="input__footer"
+        />
+        <button class="btn btn__subscribe">Subscribe</button>
+      </div>
+      <div>
+        <p>&copy; Copyright 2023 Anis Express. All rights reserved</p>
+      </div>
+    </footer class="footer">
+    <!-- footer ends from here -->
+    <script src="script/index.js"></script>
+  </body>
+</html>

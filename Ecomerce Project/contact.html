@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- First class -->
+    <meta
+      name="description"
+      content="This is an website for anis 
+    express"
+    />
+    <title>Ecomerce Project</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- First class -->
+  </head>
+  <body>
+    <!-- navbar start from here -->
+         <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+      <ul class="nav-upper flex-space-around">
+        <li class="nav__list">
+          <a href="Ecomerce.html" class="nav__link">Home </a>
+        </li>
+        <li class="nav__list">
+          <a href="register.html" class="nav__link">Register </a>
+        </li>
+        <li class="nav__list">
+          <a href="login.html" class="nav__link">Login </a>
+        </li>
+        <li class="nav__list">
+          <a href="Ecomerce.html" class="nav__link">Logout </a>
+        </li>
+        <li class="nav__list">
+          <a href="contact.html" class="nav__link">Contact </a>
+        </li>
+        <li class="nav__list">
+          <a href="profile.html" class="nav__link">
+            <img
+              class="profile-icon"
+              src="images/Anis.webp"
+              alt="profile-icon"
+            />
+          </a>
+        </li>
+      </ul>
+
+      <ul class="nav-lower flex-space-around">
+        <li class="nav__list">
+          <a href="Ecomerce.html" class="nav__brand nav__link">Anis Express </a>
+        </li>
+        <li class="nav__list">
+          <a href="cart.html" class="nav__link">
+            <span><i class="fas fa-cart-shopping"></i></span>
+            Cart 2 product - $124.40
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- navbar ends from here -->
+    <main>
+      <section class="section__contact">
+        <h2 class="section__title text-center">User Contact</h2>
+        <div class="contact__details flex-center">
+          <form action="" class="form card">
+            <div class="form-control flex-center">
+              <label for="name">Name:</label>
+              <input type="text" id="name" required autocomplete="name">
+            </div>
+            <div class="form-control flex-center">
+              <label for="email">Email:</label>
+              <input type="email" id="eamil" required autocomplete="email">
+            </div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" ></textarea>
+            <div class="form-control flex-center form__btn-feild">
+              <button type="submit" class="btn form__btn">
+                Submit
+              </button>
+            </div>
+          </form>
+          <div class="contact__address flex-space-around">
+            <address>
+              <h4>Address</h4>
+              <p>123 street,</p>
+              <p>Thampere, Finland</p>
+              <br>
+              
+              <a href="tel:+0881155474554"></a>
+            </address>
+            <iframe class="contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115860.633616108!2d89.28783529743347!3d24.841817946148986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc54e7e81df441%3A0x27133ed921fe73f4!2sBogura!5e0!3m2!1sen!2sbd!4v1714107584658!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        
+      </section>
+  </main>
+    <!-- footer start from here -->
+    <footer  class="footer flex-space-around">
+      <div class="flex-space-around">
+        <label for="subscribe">Subscribe to the Newsletter</label>
+        <input
+          type="email"
+          id="subscribe"
+          name="subscribe"
+          placeholder="Your Email"
+          class="input__footer"
+        />
+        <button class="btn btn__subscribe">Subscribe</button>
+      </div>
+      <div>
+        <p>&copy; Copyright 2023 Anis Express. All rights reserved</p>
+      </div>
+    </footer class="footer">
+    <!-- footer ends from here -->
+    <script src="script/index.js"></script>
+  </body>
+</html>
